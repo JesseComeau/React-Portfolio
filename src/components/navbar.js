@@ -5,8 +5,8 @@ function Navbar() {
     return (
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid navColor">
-                <a className="navbar-brand navText">Jesse Comeau</a>
+            <div className="container-fluid navColor" id='home'>
+                <a href='#home' className="navbar-brand navText" id='Jesse'>Jesse Comeau</a>
                 <button className="navbar-toggler " type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -60,10 +60,10 @@ function Navbar() {
                     <a href="mailto:jesseC262@gmail.com">
                         <i className="bi bi-envelope-fill h4 px-2"></i>
                     </a>
-                    <a href="https://github.com/JesseComeau" target="_blank">
+                    <a href="https://github.com/JesseComeau" target="_blank" rel='noreferrer'>
                         <i className="bi bi-github h4 px-2"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jessecomeau/" target="_blank">
+                    <a href="https://www.linkedin.com/in/jessecomeau/" target="_blank" rel='noreferrer'>
                         <i className="bi bi-linkedin h4 px-2"></i>
                     </a>
                 </div>

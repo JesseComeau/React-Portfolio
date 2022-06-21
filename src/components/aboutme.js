@@ -6,14 +6,14 @@ function Aboutme() {
     return (
 
         <main className="container1">
-            <header className="sectionAboutMe h2" name="aboutMe">
-
-                About Me</header>
+            <header className="sectionAboutMe h2" id="aboutMe">
+                About Me
+            </header>
 
             <img src={me} className="rounded-circle Personal Image aboutMeIMG mx-auto aboutmepic" alt='Jesse'></img>
 
-                <div className="aboutMeOverview mx-auto">
-                    <p>Full Stack Web Development</p>
+            <div className="aboutMeOverview mx-auto">
+                <p>Full Stack Web Development</p>
 
             </div>
             <section className="item aboutMe">
@@ -22,7 +22,6 @@ function Aboutme() {
                     <p>I am currently a student in the Northwestern University Full Stack Web Development
                         Bootcamp. I have a Bachlors degrees in Finance and Economics, along with a certificate in
                         international business from the University of Wisconsin-Milwaukee</p>
-
                     <p>I previously worked as a fraud supervisor at FIS, leading a team of 6 direct reports, while assisting
                         with an offshore team comprising of more than 30 individuals in monitoring our hundreds of client's
                         EPP transaction for potentially fraudulent activity. While working closely with our devops, service

@@ -19,7 +19,7 @@ function Projects() {
                 </a>Phase 1
             </div>
 
-            <section className="project1 h-50">
+            <section className="project1 h-50" id='Phase1'>
                 <div className="card" style={{ width: '18rem'}}>
                     <img className="card-img-top" src={TacoBoutHoppinessImg} alt="Taco Bout Hoppiness"></img>
                         <div className="card-body h-25">
@@ -110,7 +110,7 @@ function Projects() {
                 </div>
             </article>
 
-            <div className="phase2 h3 pt-5 mx-auto">
+            <div className="phase2 h3 pt-5 mx-auto" id='Phase2'>
                 <a href="Projects">
                 </a>Phase 2
             </div>

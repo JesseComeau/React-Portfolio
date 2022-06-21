@@ -5,7 +5,7 @@ function Resume() {
 
     return (
 
-        <section className="container3">
+        <section className="container3" id='resume'>
             <div className="sectionResume">
                 <p className="h2">
                     Resume

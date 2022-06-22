@@ -14,12 +14,12 @@ function Projects() {
 
             <div className="sectionProjects h2">Projects</div>
 
-            <div className="phase1 h3 pt-5 mx-auto">
+            <div className="phase1 h3 pt-5 mx-auto" id='Phase1'>
                 <a href="Projects">
                 </a>Phase 1
             </div>
 
-            <section className="project1 h-50" id='Phase1'>
+            <section className="project1 h-50" >
                 <div className="card" style={{ width: '18rem'}}>
                     <img className="card-img-top" src={TacoBoutHoppinessImg} alt="Taco Bout Hoppiness"></img>
                         <div className="card-body h-25">

@@ -1,6 +1,15 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 
 function ContactForm() {
+    const [input, setInput] = useState('')
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+
+    }
+
+
 
     return (
 

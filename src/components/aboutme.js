@@ -5,8 +5,8 @@ function Aboutme() {
 
     return (
 
-        <main className="container1">
-            <header className="sectionAboutMe h2" id="aboutMe">
+        <main className="container1" id="aboutMe">
+            <header className="sectionAboutMe h2" >
                 About Me
             </header>
 
@@ -22,7 +22,7 @@ function Aboutme() {
                     <p>I am currently a student in the Northwestern University Full Stack Web Development
                         Bootcamp. I have a Bachlors degrees in Finance and Economics, along with a certificate in
                         international business from the University of Wisconsin-Milwaukee</p>
-                    <p>I previously worked as a fraud supervisor at FIS, leading a team of 6 direct reports, while assisting
+                    <p>I previously worked as a fraud supervisor at FIS, leading a team of 7 direct reports, while assisting
                         with an offshore team comprising of more than 30 individuals in monitoring our hundreds of client's
                         EPP transaction for potentially fraudulent activity. While working closely with our devops, service
                         delivery, product managers, and development teams, I recognized a passion for development and needed

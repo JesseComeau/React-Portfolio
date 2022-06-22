@@ -7,7 +7,7 @@ import ContactForm from './components/contact-form';
 
 function App() {
   return (
-    <div className="bucket-app">
+    <div className="portfolio-app">
       <Navbar />
       <Aboutme />
       <Projects />

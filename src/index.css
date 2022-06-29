@@ -2,6 +2,16 @@ html {
   scroll-padding-top: 50px;
 }
 
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  font-size: .75rem;
+}
+
+.footerImage i {
+  color: rgb(17, 42, 70);
+}
+
 .container1 {
   width: 95%;
   color: rgb(17, 42, 70) !important;
@@ -181,7 +191,7 @@ font-size: 1.05rem;
   place-self: center;
 }
 
-i {
+.navbar i {
   color: rgb(245, 254, 255) !important;
 }
 

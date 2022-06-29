@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Navbar() {
+function Header() {
 
     const [currentPage, setCurrentPage] = useState('Home');
 
@@ -113,4 +113,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default Header;

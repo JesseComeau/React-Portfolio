@@ -1,9 +1,9 @@
 // import React, { useState } from 'react';
-import TacoBoutHoppinessImg from '../images/TacoBoutHoppiness.jpg'
-import workdayScheduleImg from '../images/WordaySchedule.jpg'
-import WeatherDashboardImg from '../images/WeatherDashboard.jpg'
-import ManyFestImg from '../images/ManyFest.jpg'
-import TechBlogImg from '../images/TechBlog.jpg'
+import TacoBoutHoppinessImg from '../../images/TacoBoutHoppiness.jpg'
+import workdayScheduleImg from '../../images/WordaySchedule.jpg'
+import WeatherDashboardImg from '../../images/WeatherDashboard.jpg'
+import ManyFestImg from '../../images/ManyFest.jpg'
+import TechBlogImg from '../../images/TechBlog.jpg'
 
 
 function Projects() {

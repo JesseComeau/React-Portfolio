@@ -1,5 +1,5 @@
 // import React, { useState } from 'react';
-import me from '../images/Me.jpg';
+import me from '../../images/Me.jpg';
 
 function Aboutme() {
 

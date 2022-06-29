@@ -1,20 +1,13 @@
-import React from 'react';
-import Navbar from './components/navbar';
-import Aboutme from './components/aboutme';
-import Projects from './components/projects';
-import Resume from './components/resume';
-import ContactForm from './components/contact-form';
+import React, { useState } from 'react';
+import PortfolioContainer from './components/PortfolioContainer.js'
 
 function App() {
-  return (
-    <div className="portfolio-app">
-      <Navbar />
-      <Aboutme />
-      <Projects />
-      <Resume />
-      <ContactForm />
-    </div>
-  );
+
+  const [currentPage, setCurrentPage] = useState('aboutMe');
+  const [tabbed, setLayout] = useState(true);
+
+  <PortfolioContainer currentPage={currentPage} tabbed={tabbed} setLayout={setLayout} setCurrentPage={setCurrentPage}/>;
+
 }
 
 export default App;

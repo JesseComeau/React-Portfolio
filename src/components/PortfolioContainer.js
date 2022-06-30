@@ -6,9 +6,10 @@ import Resume from './pages/Resume';
 import ContactForm from './pages/ContactForm';
 import Footer from './Footer'
 
-export default function PortfolioContainer(currentPage, tabbed, setLayout, setCurrentPage) {
+export default function PortfolioContainer({currentPage, tabbed, setLayout, setCurrentPage}) {
 
-    console.log(tabbed);
+    console.log('tabbed?', tabbed);
+    console.log(currentPage)
 
     const renderPage = () => {
         if (currentPage === 'aboutMe') {
@@ -18,6 +19,9 @@ export default function PortfolioContainer(currentPage, tabbed, setLayout, setCu
             return <Projects />;
         }
         if (currentPage === 'Phase2') {
+            return <Projects />;
+        }
+        if (currentPage === 'Projects') {
             return <Projects />;
         }
         if (currentPage === 'Resume') {
@@ -30,23 +34,26 @@ export default function PortfolioContainer(currentPage, tabbed, setLayout, setCu
 
     return (
         <div>
-            {tabbed ? (
-                <div className="portfolio-app" >
-                    <Navbar currentPage={currentPage} handlePageChange={handlePageChange} setLayout={setLayout} />
-                    {renderPage()}
-                </div >
-            )
+            {tabbed ?
+                (
+                    <div className="portfolio-app" >
+                        <Navbar currentPage={currentPage} handlePageChange={handlePageChange} setLayout={setLayout} />
+                        {renderPage()}
+                        <Footer />
+                    </div >
+                )
                 :
                 (
                     <div className="portfolio-app">
-                        <Navbar currentPage={currentPage} handlePageChange={handlePageChange} setLayout={setLayout} />
+                        <Navbar setLayout={setLayout} />
                         <Aboutme />
                         <Projects />
                         <Resume />
                         <ContactForm />
                         <Footer />
                     </div>
-                )}
+                )
+            }
         </div>
 
     )

@@ -1,10 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Header() {
-
-    const [currentPage, setCurrentPage] = useState('Home');
-
-    const handlePageChange = (page) => setCurrentPage(page);
+function Header({ currentPage, handlePageChange, setLayout }) {
 
     const homeEl = document.getElementById('homeNav');
     const aboutMeEl = document.getElementById('aboutMeNav');
@@ -47,7 +43,7 @@ function Header() {
 
         <nav className='navbar navbar-expand-lg navbar-light bg-light sticky-top'>
             <div className='container-fluid navColor' id='home'>
-                <a href='#home' className='navbar-brand navText' id='homeNav'>Jesse Comeau</a>
+                <a href='/' className='navbar-brand navText' id='homeNav'>Jesse Comeau</a>
                 <button className='navbar-toggler ' type='button' data-bs-toggle='collapse'
                     data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false'
                     aria-label='Toggle navigation'>
@@ -65,7 +61,7 @@ function Header() {
                             </a>
                             <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                                 <li>
-                                    <a className='dropdown-item' href='#Projects' >Bootcamp Projects</a>
+                                    <a className='dropdown-item' href='#Projects' onClick={() => handlePageChange('Projects')} >Bootcamp Projects</a>
                                 </li>
                                 <li>
                                     <div style={{ borderTop: '2px solid #fff ', marginLeft: 20, marginRight: 20 }}></div>
@@ -94,6 +90,22 @@ function Header() {
                         <li className='nav-item'>
                             <a className='nav-link navText' href='#contact' id='contactNav' onClick={() => handlePageChange('Contact')}>Contact</a>
                         </li>
+                        <li className='nav-item dropdown'>
+                            <a className='nav-link dropdown-toggle navText' href='#View' id='projectNav' role='button'
+                                data-bs-toggle='dropdown' aria-expanded='false'>
+                                Toggle View
+                            </a>
+                            <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
+                                <li>
+                                    <label className='dropdown-item' onClick={() => setLayout(false)} >Single Page</label>
+                                </li>
+                                <li>
+                                    <label className='dropdown-item'  onClick={() => setLayout(true)} >Tabbed</label>
+                                </li>
+
+                            </ul>
+                        </li>
+
 
                     </ul>
                     <div style={{ borderTop: '2px solid #fff ', marginLeft: 20, marginRight: 20 }}></div>

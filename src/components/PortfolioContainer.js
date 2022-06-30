@@ -8,9 +8,6 @@ import Footer from './Footer'
 
 export default function PortfolioContainer({currentPage, tabbed, setLayout, setCurrentPage}) {
 
-    console.log('tabbed?', tabbed);
-    console.log(currentPage)
-
     const renderPage = () => {
         if (currentPage === 'aboutMe') {
             return <Aboutme />;

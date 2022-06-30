@@ -1,15 +1,6 @@
 // import React, { useState } from 'react';
 
 function ContactForm() {
-    // const [input, setInput] = useState('')
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-
-
-
-    // }
-
 
 
     return (
@@ -45,7 +36,7 @@ function ContactForm() {
 
 
             <div className="text-center text-md-left contactMeSubmit">
-                <button className="btn btn-primary" onClick="document.getElementById('contact-form').submit();">Send</button>
+                <button className="btn btn-primary">Send</button>
             </div>
 
         </div>

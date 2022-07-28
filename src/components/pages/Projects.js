@@ -211,6 +211,91 @@ function Projects() {
                 </div>
             </article>
 
+            <div className="phase3 h3 pt-5 mx-auto" id='Phase3'>
+                <a href="Projects">
+                </a>Phase 3
+            </div>
+
+            <section className="project3 h-50">
+                <div className="card" style={{ width: '18rem' }}>
+                    <img className="card-img-top" src={ManyFestImg} alt="ManyFest"></img>
+                    <div className="card-body h-25">
+                        <h5 className="card-title">ManyFest</h5>
+                        <h6>Group Project - Project 3</h6>
+                        <p className="card-text">The team utilized Node/Express, Sequilize/MySQL, Handlebars, AWS S3, Multer, and the Tailwinds CLI to create an application to track personal collections and get inspired recent items added by others on the home page.
+                        </p>
+                        <p>
+                            Personal Contribution - Designed the base layout of the pages utilizes tailwind components. Implemented modals. Created models and routes for the backend. Utilizing handlebars on various pages and elements. Created the static about us page. Maintained Heroku deployments.
+                        </p>
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                            <div className="d-flex justify-content-around my-3">
+                                <img className="icon" src={nodeIcon} alt="Javascript" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={ExpressIcon} alt="Javascript" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={mysqlIcon} alt="Javascript" href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={tailwindIcon} alt="Javascript" href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={HerokuIcon} alt="Javascript" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div className="card-body h-50">
+                        <a href="https://github.com/JesseComeau/ManyFest" target="_blank" rel="noopener noreferrer" className="card-link">Repo</a>
+                        <a href="https://manyfestapp.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">Deployed
+                            link</a>
+                    </div>
+                </div>
+            </section>
+
+            <article className="homework5">
+                <div className="card h-100" style={{ width: '18rem' }}>
+                    <img className="card-img-top" src={NoteTakerImg} alt="Homework 5"></img>
+                    <div className="card-body h-75">
+                        <h5 className="card-title">Note Taker App</h5>
+                        <p className="card-text">Created an application that utilizes Express to add/delete notation from a stored db.</p>
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                            <div className="d-flex justify-content-around my-1">
+                                <img className="icon" src={HTML5Icon} alt="HTML5" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={CSS3Icon} alt="CSS3" href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={nodeIcon} alt="Javascript" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={ExpressIcon} alt="Javascript" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div className="card-body">
+                        <a href="https://github.com/JesseComeau/Note_Taker" target="_blank" rel="noopener noreferrer" className="card-link">Repo</a>
+                        <a href="https://note-taker-jtc.herokuapp.com/notes" target="_blank" rel="noopener noreferrer" className="card-link">Deployed link</a>
+                    </div>
+                </div>
+            </article>
+
+            <article className="homework6">
+                <div className="card h-100" style={{ width: '18rem' }}>
+                    <img className="card-img-top" src={TechBlogImg} alt="Homework 6"></img>
+                    <div className="card-body h-75">
+                        <h5 className="card-title">Tech Blog</h5>
+                        <p className="card-text">Created a wordpress style site utilizing Node, Express, and a SQL database incorporating user signup/login and cookies.</p>
+                        <p className="card-text">Deployed to Heroku utilizing Jaws DB for the backend database.</p>
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                            <div className="d-flex justify-content-around my-1">
+                                <img className="icon" src={nodeIcon} alt="Javascript" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={ExpressIcon} alt="Javascript" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={mysqlIcon} alt="Javascript" href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={HerokuIcon} alt="Javascript" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div className="card-body">
+                        <a href="https://github.com/JesseComeau/Tech_Blog" target="_blank" rel="noopener noreferrer" className="card-link">Repo</a>
+                        <a href="https://techblog-jc.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">Deployed link</a>
+                    </div>
+                </div>
+            </article>
+
         </section>
     )
 }

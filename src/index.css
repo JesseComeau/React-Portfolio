@@ -37,8 +37,11 @@ html {
   padding: 1em;
   grid-template-areas:
     "sectionProjects Phase1 Phase1 Phase2 Phase2"
-    "sectionProjects project1 homework1 project2 homework3"
-    "sectionProjects project1 homework2 project2 homework4";
+    "sectionProjects homework1 project1 homework3 project2"
+    "sectionProjects homework2 project1 homework4 project2"
+    "sectionProjects Phase3 Phase3 Phase3 Phase3"
+    "sectionProjects homework5 homework6 project3 project3"
+    "sectionProjects homework5 homework6 project3 project3";
   grid-row-gap: 4em;
   justify-items: start;
 }
@@ -146,6 +149,10 @@ img {
   grid-area: project2;
 }
 
+.project3 {
+  grid-area: project3;
+}
+
 .homework1 {
   grid-area: homework1;
 }
@@ -162,7 +169,6 @@ img {
 .homework5 {
   grid-area: homework5;
 }
-
 .homework6 {
   grid-area: homework6;
 }
@@ -211,6 +217,10 @@ img {
 
 .phase2 {
   grid-area: Phase2;
+}
+
+.phase3 {
+  grid-area: Phase3;
 }
 
 .container2 img:hover {

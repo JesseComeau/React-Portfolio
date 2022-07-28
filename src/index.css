@@ -40,8 +40,8 @@ html {
     "sectionProjects homework1 project1 homework3 project2"
     "sectionProjects homework2 project1 homework4 project2"
     "sectionProjects Phase3 Phase3 Phase3 Phase3"
-    "sectionProjects homework5 project3 project3 project3"
-    "sectionProjects homework6 project3 project3 project3";
+    "sectionProjects homework5 project3 project31 project31"
+    "sectionProjects homework6 project3 project31 project31";
   grid-row-gap: 4em;
   justify-items: start;
 }
@@ -151,6 +151,10 @@ img {
 
 .project3 {
   grid-area: project3;
+}
+
+.project3-cont {
+  grid-area: project31;
 }
 
 .homework1 {

@@ -22,6 +22,7 @@ import mysqlIcon from "../../images/skills/mysql.svg";
 import nodeIcon from "../../images/skills/nodejs.svg";
 import reactIcon from "../../images/skills/react.svg";
 import tailwindIcon from "../../images/skills/tailwindcss.svg";
+import pythonIcon from "../../images/skills/python.svg";
 // import webpackIcon from '../../images/skills/webpack.svg'
 
 function Projects() {
@@ -31,7 +32,6 @@ function Projects() {
 
       <div className="phase1 h3 pt-5 mx-auto" id="Phase1">
         <a href="Projects"> </a>Phase 1
-
       </div>
 
       <article className="homework1">
@@ -592,7 +592,7 @@ function Projects() {
               Personal additions to the project after submission. Utilizing additional time to
             </p>
             <ul>
-                <li>Updated structure of the repository and removed unnecessary files.</li>
+              <li>Updated structure of the repository and removed unnecessary files.</li>
             </ul>
           </div>
           <ul className="list-group list-group-flush">
@@ -837,6 +837,79 @@ function Projects() {
           </div>
         </div>
       </article>
+
+      {/* Personal Projects */}
+
+      <div className="PersonalProjects h3 pt-5 mx-auto" id="Personal">
+        <a href="Projects"> </a>Personal Projects
+      </div>
+
+      <article className="python">
+        <div className="card h-100" style={{ width: "18rem" }}>
+          <img
+            className="card-img-top"
+            src={workdayScheduleImg}
+            alt="Python Newsfeed"
+          ></img>
+          <div className="card-body h-75">
+            <h5 className="card-title">Python Newsfeed</h5>
+            <p className="card-text h6">
+              Coming Soon
+            </p>
+            <p className="card-text">
+
+              Creating an application using Python.
+            </p>
+          </div>
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
+              <div className="d-flex justify-content-around my-1">
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img className="icon" src={pythonIcon} alt="HTML5" />
+                </a>
+                {/* <a
+                  href="https://www.w3.org/TR/CSS/#css"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img className="icon" src={CSS3Icon} alt="CSS3" />
+                </a>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                > */}
+                  {/* <img className="icon" src={JavascriptIcon} alt="Javascript" />
+                </a> */}
+              </div>
+            </li>
+          </ul>
+          <div className="card-body">
+            <a
+              href="https://github.com/JesseComeau/python-newsfeed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-link"
+            >
+              Repo
+            </a>
+            <a
+              href="https://jessecomeau.github.io/Workschedule/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-link text-secondary"
+            ><del>
+                Deployed link
+              </del>
+            </a>
+          </div>
+        </div>
+      </article>
+
     </section>
   );
 }

@@ -1,5 +1,5 @@
 // import React, { useState } from 'react';
-import resume from '../../images/JesseComeauResume.pdf'
+import resume from '../../images/JesseComeauResume.pdf#toolbar=0'
 
 function Resume() {
 

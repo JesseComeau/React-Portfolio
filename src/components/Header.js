@@ -29,6 +29,10 @@ function Header({ currentPage, handlePageChange, setLayout }) {
         removeActive(navButtons)
         projectEl.classList.add('active');
     }
+    else if (currentPage === 'Phase3') {
+        removeActive(navButtons)
+        projectEl.classList.add('active');
+    }
     else if (currentPage === 'Resume') {
         removeActive(navButtons)
         resumeEl.classList.add('active');
@@ -72,6 +76,9 @@ function Header({ currentPage, handlePageChange, setLayout }) {
                                 </li>
                                 <li>
                                     <a className='dropdown-item ms-4' href='#Phase2' onClick={() => handlePageChange('Phase2')}>Phase 2</a>
+                                </li>
+                                <li>
+                                    <a className='dropdown-item ms-4' href='#Phase3' onClick={() => handlePageChange('Phase3')}>Phase 3</a>
                                 </li>
                                 <li>
                                     <div style={{ borderTop: '2px solid #fff ', marginLeft: 20, marginRight: 20 }}></div>

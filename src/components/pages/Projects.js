@@ -5,6 +5,9 @@ import WeatherDashboardImg from '../../images/WeatherDashboard.jpg'
 import ManyFestImg from '../../images/ManyFest.jpg'
 import TechBlogImg from '../../images/TechBlog.jpg'
 import NoteTakerImg from '../../images/NoteTaker.jpg'
+import TextEditorImg from '../../images/TextEditor.jpg'
+import BookSearchEngineImg from '../../images/BookSearchEngine.jpg'
+import GetOnBoardImg from '../../images/GetOnBoard.jpg'
 
 // Icons
 import BootstrapIcon from '../../images/skills/bootstrap.svg'
@@ -19,7 +22,7 @@ import mysqlIcon from '../../images/skills/mysql.svg'
 import nodeIcon from '../../images/skills/nodejs.svg'
 import reactIcon from '../../images/skills/react.svg'
 import tailwindIcon from '../../images/skills/tailwindcss.svg'
-import webpackIcon from '../../images/skills/webpack.svg'
+// import webpackIcon from '../../images/skills/webpack.svg'
 
 
 function Projects() {
@@ -146,11 +149,11 @@ function Projects() {
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">
                             <div className="d-flex justify-content-around my-3">
-                                <img className="icon" src={nodeIcon} alt="Javascript" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={ExpressIcon} alt="Javascript" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={mysqlIcon} alt="Javascript" href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={tailwindIcon} alt="Javascript" href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={HerokuIcon} alt="Javascript" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={nodeIcon} alt="Node.JS" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={ExpressIcon} alt="Express" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={mysqlIcon} alt="MySQL" href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={tailwindIcon} alt="Tailwind" href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={HerokuIcon} alt="Heroku" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer" />
                             </div>
                         </li>
                     </ul>
@@ -174,8 +177,8 @@ function Projects() {
                             <div className="d-flex justify-content-around my-1">
                                 <img className="icon" src={HTML5Icon} alt="HTML5" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noopener noreferrer" />
                                 <img className="icon" src={CSS3Icon} alt="CSS3" href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={nodeIcon} alt="Javascript" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={ExpressIcon} alt="Javascript" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={nodeIcon} alt="Node.JS" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={ExpressIcon} alt="Express" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
                             </div>
                         </li>
                     </ul>
@@ -197,10 +200,98 @@ function Projects() {
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">
                             <div className="d-flex justify-content-around my-1">
+                                <img className="icon" src={nodeIcon} alt="Node.JS" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={ExpressIcon} alt="Express" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={mysqlIcon} alt="MySQL" href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={HerokuIcon} alt="Heroku" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div className="card-body">
+                        <a href="https://github.com/JesseComeau/Tech_Blog" target="_blank" rel="noopener noreferrer" className="card-link">Repo</a>
+                        <a href="https://techblog-jc.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">Deployed link</a>
+                    </div>
+                </div>
+            </article>
+
+            <div className="phase3 h3 pt-5 mx-auto" id='Phase3'>
+                <a href="Projects">
+                </a>Phase 3
+            </div>
+
+            <section className="project3 h-50">
+                <div className="card" style={{ width: '18rem' }}>
+                    <img className="card-img-top" src={GetOnBoardImg} alt="GetOnBoard"></img>
+                    <div className="card-body h-25">
+                        <h5 className="card-title">Get On Board!</h5>
+                        <h6>Group Project - Project 3</h6>
+                        <p className="card-text">The team utilized Node/Express, MongoDB, Apollo, React/React-Router, JWT, and the Bootstrap CDN to create an application to track personal board game collections and initiate and schedule board game events with friends.
+                        </p>
+                        <p>
+                            Personal Contribution - Created and imlemented models/typeDefs/Resolvers on the backend and linked to the front end. Maintained queries and mutations to deliver what was required on the front end, while mimimizing unnecessary data. Maintained consistent heroku deploys. Input validation and authentication. Styling on multiple pages, and much of the functionality on the dashboard view.
+                        </p>
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                            <div className="d-flex justify-content-around my-3">
+                                <img className="icon" src={nodeIcon} alt="Node.JS" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={ExpressIcon} alt="Express" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={reactIcon} alt="react" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={BootstrapIcon} alt="BootStrap" href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={MongoDBIcon} alt="MongoDB" href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={GraphQLIcon} alt="GraphQL" href="https://graphql.org/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={HerokuIcon} alt="Heroku" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div className="card-body h-50">
+                        <a href="https://github.com/P3T1-StaleMates/GetOnBoard" target="_blank" rel="noopener noreferrer" className="card-link">Repo</a>
+                        <a href="https://p3-getonboard.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">Deployed
+                            link</a>
+                    </div>
+                </div>
+            </section>
+
+            <article className="homework5">
+                <div className="card h-100" style={{ width: '18rem' }}>
+                    <img className="card-img-top" src={TextEditorImg} alt="Homework 5"></img>
+                    <div className="card-body h-75">
+                        <h5 className="card-title">PWA Text Editor</h5>
+                        <p className="card-text">Progressive Web Application utilizing indexDB, local storage and a service worker.</p>
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                            <div className="d-flex justify-content-around my-1.5">
+                                <img className="icon" src={HTML5Icon} alt="HTML5" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={CSS3Icon} alt="CSS3" href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noopener noreferrer" />
                                 <img className="icon" src={nodeIcon} alt="Javascript" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={ExpressIcon} alt="Javascript" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={mysqlIcon} alt="Javascript" href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" />
-                                <img className="icon" src={HerokuIcon} alt="Javascript" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={ExpressIcon} alt="Express" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div className="card-body">
+                        <a href="https://github.com/JesseComeau/Text-Editor" target="_blank" rel="noopener noreferrer" className="card-link">Repo</a>
+                        <a href="https://pwa-j-a-t-e.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="card-link">Deployed link</a>
+                    </div>
+                </div>
+            </article>
+
+            <article className="homework6">
+                <div className="card h-100" style={{ width: '18rem' }}>
+                    <img className="card-img-top" src={BookSearchEngineImg} alt="Homework 6"></img>
+                    <div className="card-body h-75">
+                        <h5 className="card-title">Book Search Engine</h5>
+                        <p className="card-text">A Full Stack Application utilizing React, MongoDB and graphQL APIs. Utilizes locally stored data to reduce redundancy in titles.</p>
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                            <div className="d-flex justify-content-around my-1">
+                                <img className="icon" src={ExpressIcon} alt="Express" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={reactIcon} alt="react" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={BootstrapIcon} alt="BootStrap" href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={MongoDBIcon} alt="MongoDB" href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={GraphQLIcon} alt="GraphQL" href="https://graphql.org/" target="_blank" rel="noopener noreferrer" />
+                                <img className="icon" src={HerokuIcon} alt="Heroku" href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer" />
                             </div>
                         </li>
                     </ul>

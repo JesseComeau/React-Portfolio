@@ -5,7 +5,7 @@ html {
 .footerContainer {
   display: flex;
   justify-content: center;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .footerImage i {
@@ -86,8 +86,8 @@ img {
 }
 
 .active {
-font-weight: bold;
-font-size: 1.05rem;
+  font-weight: bold;
+  font-size: 1.05rem;
 }
 
 .card ul {
@@ -108,6 +108,12 @@ font-size: 1.05rem;
   margin: 1% auto;
   padding: 2% 2%;
   color: rgb(17, 42, 70);
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  border: none;
 }
 
 .aboutMe {

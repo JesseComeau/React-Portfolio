@@ -40,8 +40,8 @@ html {
     "sectionProjects homework1 project1 homework3 project2"
     "sectionProjects homework2 project1 homework4 project2"
     "sectionProjects Phase3 Phase3 Phase3 Phase3"
-    "sectionProjects homework5 homework6 project3 project3"
-    "sectionProjects homework5 homework6 project3 project3";
+    "sectionProjects homework5 project3 project3 project3"
+    "sectionProjects homework6 project3 project3 project3";
   grid-row-gap: 4em;
   justify-items: start;
 }

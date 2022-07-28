@@ -1,18 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a9ff546.css",
-    "main.js": "/static/js/main.90e50f7d.js",
+    "main.css": "/static/css/main.2d80c183.css",
+    "main.js": "/static/js/main.348027b1.js",
     "static/media/JesseComeauResume.pdf": "/static/media/JesseComeauResume.af29290d0ab8f63469e0.pdf",
     "static/media/WeatherDashboard.jpg": "/static/media/WeatherDashboard.c21725c7b5ec900dcfe7.jpg",
     "static/media/Me.jpg": "/static/media/Me.99beb39f78f86042da55.jpg",
     "static/media/ManyFest.jpg": "/static/media/ManyFest.2f804eadc76e0f859f21.jpg",
     "static/media/TechBlog.jpg": "/static/media/TechBlog.6a872a980c3f6eea0b7d.jpg",
+    "static/media/NoteTaker.jpg": "/static/media/NoteTaker.0d6288988070712bcfbe.jpg",
+    "static/media/mongodb.svg": "/static/media/mongodb.6835c61a518a732eb8318d43dfe8f700.svg",
+    "static/media/mysql.svg": "/static/media/mysql.d5bba8da925b0b8e1f29f938f19c5aaa.svg",
+    "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/graphql.svg": "/static/media/graphql.14267f2ddb307badb38d0804e8151bcd.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.ad2a9a8806d9bdbd287fb34b1eebd956.svg",
+    "static/media/javascript.svg": "/static/media/javascript.bacc3387f463f5b56f433827347c6155.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.b74f5e327438aeb217a910827f441e34.svg",
     "index.html": "/index.html",
-    "main.8a9ff546.css.map": "/static/css/main.8a9ff546.css.map",
-    "main.90e50f7d.js.map": "/static/js/main.90e50f7d.js.map"
+    "static/media/express.svg": "/static/media/express.26a880a12dab894fe04dd8709e66e7b6.svg",
+    "static/media/tailwindcss.svg": "/static/media/tailwindcss.e7b4a92d5aefbddd6f0651c024144be2.svg",
+    "static/media/webpack.svg": "/static/media/webpack.cf92f221fed7474aa201921161e6fde5.svg",
+    "static/media/CSS3.svg": "/static/media/CSS3.4f50b33af1d2115e9ee75ed4b1570e17.svg",
+    "static/media/html5.svg": "/static/media/html5.69274ea277b1ee86ba50abd24b291122.svg",
+    "static/media/heroku.svg": "/static/media/heroku.3f1cc0c4584482604a5fbcaf3d2fb7a5.svg",
+    "main.2d80c183.css.map": "/static/css/main.2d80c183.css.map",
+    "main.348027b1.js.map": "/static/js/main.348027b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a9ff546.css",
-    "static/js/main.90e50f7d.js"
+    "static/css/main.2d80c183.css",
+    "static/js/main.348027b1.js"
   ]
 }

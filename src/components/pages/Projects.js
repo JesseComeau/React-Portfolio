@@ -827,7 +827,7 @@ function Projects() {
               Repo
             </a>
             <a
-              href="https://github.com/JesseComeau/Book-Search-Engine.git"
+              href="https://book-search-engine-1p38.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="card-link"

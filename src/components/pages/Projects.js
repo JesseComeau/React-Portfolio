@@ -807,19 +807,19 @@ function Projects() {
                 >
                   <img className="icon" src={GraphQLIcon} alt="GraphQL" />
                 </a>
-                <a
+                {/* <a
                   href="https://www.heroku.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className="icon" src={HerokuIcon} alt="Heroku" />
+                  <img className="icon" src={HerokuIcon} alt="Heroku" /> */}
                 </a>
               </div>
             </li>
           </ul>
           <div className="card-body">
             <a
-              href="https://github.com/JesseComeau/Tech_Blog"
+              href="https://github.com/JesseComeau/Book-Search-Engine"
               target="_blank"
               rel="noopener noreferrer"
               className="card-link"
@@ -827,7 +827,7 @@ function Projects() {
               Repo
             </a>
             <a
-              href="https://techblog-jc.herokuapp.com/"
+              href="https://github.com/JesseComeau/Book-Search-Engine.git"
               target="_blank"
               rel="noopener noreferrer"
               className="card-link"

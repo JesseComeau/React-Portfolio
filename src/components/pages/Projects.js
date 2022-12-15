@@ -812,8 +812,8 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img className="icon" src={HerokuIcon} alt="Heroku" /> */}
-                </a>
+                  <img className="icon" src={HerokuIcon} alt="Heroku" />
+                </a> */}
               </div>
             </li>
           </ul>

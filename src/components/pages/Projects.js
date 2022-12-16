@@ -736,7 +736,7 @@ function Projects() {
               Repo
             </a>
             <a
-              href="https://pwa-j-a-t-e.herokuapp.com/"
+              href="https://text-editor-im29.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="card-link"

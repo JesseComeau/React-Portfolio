@@ -389,7 +389,7 @@ function Projects() {
               Repo
             </a>
             <a
-              href="https://note-taker-jtc.herokuapp.com/notes"
+              href="https://note-taker-01ra.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="card-link"
